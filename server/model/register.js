@@ -13,6 +13,10 @@ const registerSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  department:{
+    type:String,
+    requried:true
+  },
   date: {
     type: Date,
     default: Date.now,

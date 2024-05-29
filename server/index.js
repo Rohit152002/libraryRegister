@@ -19,7 +19,7 @@ const io = new Server(httpServer, {
   },
 });
 app.get("/", (req, res) => {
-  res.send("hello world");
+  res.send("server running");
 });
 
 app.use("/register", router);
